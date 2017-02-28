@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import VueResource from 'vue-resource';
 import Router from 'vue-router';
 import Hello from '@/components/Hello';
 import About from '@/components/About';
@@ -7,6 +8,7 @@ import Translate from '@/components/Translate';
 import Vocab from '@/components/Vocab';
 import Login from '@/components/Login';
 
+Vue.use(VueResource);
 Vue.use(Router);
 
 export default new Router({
