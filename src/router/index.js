@@ -1,12 +1,13 @@
 import Vue from 'vue';
 import VueResource from 'vue-resource';
 import Router from 'vue-router';
-import Hello from '@/components/Hello';
+import Home from '@/components/Home';
 import About from '@/components/About';
 import Languages from '@/components/Languages';
 import Translate from '@/components/Translate';
 import Vocab from '@/components/Vocab';
 import Login from '@/components/Login';
+import Signup from '@/components/Signup';
 
 Vue.use(VueResource);
 Vue.use(Router);
@@ -15,8 +16,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello,
+      name: 'Home',
+      component: Home,
     },
     {
       path: '/about',
@@ -42,6 +43,11 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login,
+    },
+    {
+      path: '/signup',
+      name: 'Signup',
+      component: Signup,
     },
   ],
 });
