@@ -2,6 +2,9 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Hello from '@/components/Hello';
 import About from '@/components/About';
+import Languages from '@/components/Languages';
+import Translate from '@/components/Translate';
+import Vocab from '@/components/Vocab';
 import Login from '@/components/Login';
 
 Vue.use(Router);
@@ -17,6 +20,21 @@ export default new Router({
       path: '/about',
       name: 'About',
       component: About,
+    },
+    {
+      path: '/languages',
+      name: 'Languages',
+      component: Languages,
+    },
+    {
+      path: '/vocab',
+      name: 'Vocab',
+      component: Vocab,
+    },
+    {
+      path: '/translate',
+      name: 'Translate',
+      component: Translate,
     },
     {
       path: '/login',
