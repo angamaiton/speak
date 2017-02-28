@@ -1,13 +1,13 @@
 import Vue from 'vue';
 import VueResource from 'vue-resource';
 import Router from 'vue-router';
-import Home from '@/components/Home';
-import About from '@/components/About';
-import Languages from '@/components/Languages';
-import Translate from '@/components/Translate';
-import Vocab from '@/components/Vocab';
-import Login from '@/components/Login';
-import Signup from '@/components/Signup';
+import Home from '@/pages/Home';
+import About from '@/pages/About';
+import Languages from '@/pages/Languages';
+import Translate from '@/pages/Translate';
+import Vocab from '@/pages/Vocab';
+import Login from '@/pages/Login';
+import Signup from '@/pages/Signup';
 
 Vue.use(VueResource);
 Vue.use(Router);
