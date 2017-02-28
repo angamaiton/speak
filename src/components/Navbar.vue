@@ -11,6 +11,7 @@
       </div>
       <div class="nav-right">
         <router-link to="login" class="nav-item is-tab">Log in</router-link>
+        <router-link to="signup" class="nav-item is-tab">Sign up</router-link>
       </div>
     </div>
   </nav>
